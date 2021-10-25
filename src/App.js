@@ -1,6 +1,8 @@
 import './App.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import ProductsList from './components/ProductsList';
+import SearchBar from './components/SearchBar';
+import Header from './components/Header';
 
 const client = new ApolloClient({
   uri: 'https://pangaea-interviews.vercel.app/api/graphql',
@@ -10,8 +12,10 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
+      <Header />
+      <SearchBar />
       <div className='container'>
-        <ProductsList currency='EUR' />
+        <ProductsList currency='NGN' />
       </div>
     </ApolloProvider>
   );

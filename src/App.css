@@ -10,6 +10,14 @@
   margin:0 auto;
 }
 
+a{
+  color: #111;
+  text-align: center;
+  padding: 0 1rem;
+  margin: auto;
+  text-decoration: none;
+}
+
 .card{
   margin:2rem 1rem;
   width: 30%;
@@ -17,13 +25,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 170px;
+  height: 270px;
   /* flex: 1 1 0%; */
 }
 
 img{
     object-fit: contain;
-    max-width: 100%;
+    max-width: 60%;
     max-height: 100px;
     flex: 1 1 0%;
     height: auto;
@@ -32,6 +40,103 @@ img{
     margin: 2rem;
 }
 
-h2,h3,p{
+h2,h3,p,span{
   margin: .5rem;
+  letter-spacing: .5px;
 }
+
+button {
+  min-width: 190px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: #4b5548;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+button:hover{
+ background-color: #2b2e2b
+}
+
+.search-container{
+  padding: 7rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.search-item{
+      align-items: end;
+    width: 100%;
+
+}
+
+
+.search-box{
+  line-height: 2rem;
+  height: 57px;
+}
+
+.heading{
+  font-size: 3rem;
+  line-height: 1.25em;
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  box-shadow: 0 2px 3px -3px grey;
+  padding: .75rem;
+}
+
+.nav-items {
+  width: 30%;
+  align-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ .logo-container {
+    height: 100%;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .shopping-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .item-count {
+    font-size: 15px;
+    margin-bottom: 0.75rem;
+    line-height: .5;
+  }
+

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProductItem = ({ product: { title, image_url, price }, currency }) => {
-  const formattedPrice = (number) => new Intl.NumberFormat().format(number);
+  const formattedPrice = (number) => new Intl.NumberFormat({ maximumSignificantDigits: 3 }).format(number);
   return (
     <div className='card'>
       <img src={image_url} alt={title} />
@@ -9,6 +9,7 @@ const ProductItem = ({ product: { title, image_url, price }, currency }) => {
       <h3>
         {currency} {formattedPrice(price)}
       </h3>
+      <button>Add to cart</button>
     </div>
   );
 };
