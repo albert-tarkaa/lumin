@@ -119,8 +119,8 @@ button:hover{
 
 
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  cursor: pointer;
+  /* color: black; */
 }
 
  .logo-container {

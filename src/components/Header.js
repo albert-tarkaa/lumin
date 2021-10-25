@@ -8,13 +8,13 @@ const Header = () => {
       <div class='navbar'>
         <div className='nav-items'>
           <Logo className='logo-container' />
-          <a href='#'>Shop</a>
-          <a href='#'>About</a>
-          <a href='#'>Support</a>
-          <a href='#'>Blog</a>
+          <a>Shop</a>
+          <a>About</a>
+          <a>Support</a>
+          <a href='https://store.luminskin.com/blog'>Blog</a>
         </div>
         <div className='nav-items'>
-          <a href='#'>Account</a>
+          <a>Account</a>
           <CartIcon className='shopping-icon' />
           <span className='item-count'>15</span>
         </div>
