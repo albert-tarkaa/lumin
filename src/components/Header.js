@@ -8,9 +8,9 @@ const Header = () => {
       <div class='navbar'>
         <div className='nav-items'>
           <Logo className='logo-container' />
-          <a>Shop</a>
-          <a>About</a>
-          <a>Support</a>
+          <a href='https://store.luminskin.com/blog'>Shop</a>
+          <a href='https://store.luminskin.com/blog'>About</a>
+          <a href='https://store.luminskin.com/blog'>Support</a>
           <a href='https://store.luminskin.com/blog'>Blog</a>
         </div>
         <div className='nav-items'>
