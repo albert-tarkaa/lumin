@@ -14,7 +14,7 @@ const Header = () => {
           <a href='https://store.luminskin.com/blog'>Blog</a>
         </div>
         <div className='nav-items'>
-          <a>Account</a>
+          <a href='https://store.luminskin.com/blog'>Account</a>
           <CartIcon className='shopping-icon' />
           <span className='item-count'>15</span>
         </div>
