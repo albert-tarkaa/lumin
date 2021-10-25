@@ -70,15 +70,16 @@ button:hover{
 }
 
 .search-container{
-  padding: 7rem 5rem;
+  padding: 8rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
+  background-color: #f5f5f4;
 }
 
 .search-item{
-      align-items: end;
+    align-items: end;
     width: 100%;
 
 }
@@ -101,7 +102,7 @@ button:hover{
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #f5f5f4;
   position: fixed; 
   top: 0; 
   width: 100%;
@@ -110,7 +111,7 @@ button:hover{
 }
 
 .nav-items {
-  width: 30%;
+  width: 40%;
   align-content: space-between;
   display: flex;
   justify-content: space-between;
@@ -126,7 +127,6 @@ button:hover{
  .logo-container {
     height: 100%;
     width: 150px;
-    padding: 10px;
   }
 
   .shopping-icon {
